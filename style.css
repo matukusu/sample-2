@@ -34,7 +34,9 @@ font-family: ‘Avenir’,’Helvetica Neue’,’Helvetica’,’Arial’,’Hi
 .h-image img{
 	width: 100%;
 }
-
+.h-image .sp-img{
+	display: none;
+}
 main{
 	width: 80%;
 	margin: auto;
@@ -117,8 +119,8 @@ footer p{
 	text-align: right;
 	margin-bottom: 10px;
 }
-@media screen and (max-width:900px) {
-    /*　画面サイズが1100px以下はここを読み込む　*/
+@media screen and (max-width:800px) {
+    /*　画面サイズが800px以下はここを読み込む　*/
 	
 	.header-top{
 	display:block;
